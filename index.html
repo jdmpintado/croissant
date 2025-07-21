@@ -3,10 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/css/style.css" />
     <title>Document</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">🥐</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/photo.html">How to eat croissant</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html"
+                >The best croissant in Lisbon</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <h1>History of croissant</h1>
     <p>
       The croissant, though now a quintessential French pastry, actually has its
@@ -30,13 +73,9 @@
       by the early 20th century, the croissant had become a staple of French
       boulangeries.
     </p>
-    <p>
-      <a href="/photo.html">Photo of a croissant</a>
-    </p>
-    <p>
-      <a href="/contact.html"
-        >The best croissant in Lisbon</a
-      >
-    </p>
+   <div class="navigation-links">
+      <a href="/photo.html" class="primary-link">Photo of a croissant</a>
+      <a href="/contact.html" class="secondary-link">The best croissant in Lisbon</a>
+   </div>
   </body>
 </html>

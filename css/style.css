@@ -1,0 +1,50 @@
+:root {
+    --primary-color: #885DF1;
+    --secondary-color: #F5F1FE;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.01);
+    color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    margin: 80px 30px 40px;
+    color: var(--primary-color);
+}
+
+p {
+    margin: 30px;
+}
+
+.navigation-links {
+    display: flex;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    padding: 10px 10px 15px;
+    margin: 10px 10px 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.secondary-link {
+    background-color: var(--secondary-color);
+    border-radius: 4px;
+    padding: 10px 10px 15px;
+    margin: 10px 10px 10px 20px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.croissant {
+    max-width: 400px;
+}
+
+@media (max-width: 1300px) {
+    .croissant {
+        max-width: 250px;
+    }
+}

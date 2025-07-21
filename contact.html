@@ -3,26 +3,73 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/css/style.css" />
     <title>Document</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">🥐</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/photo.html">How to eat croissant</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/contact.html"
+                >The best croissant in Lisbon</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <h1>The best croissant in Lisbon</h1>
-    <h2>Pastelaria Benard (Chiado)</h2>
-    <p>
+    <h3 class="mb-2 ms-5">🥐 Pastelaria Benard (Chiado)</h2>
+    <p class="mb-4 ms-5">
       Historic establishment (since 1868), croissants always fresh, wide variety
       of flavors
     </p>
-    <h2>Pastelaria Careca (Restelo)</h2>
-    <p>Iconic ultra‑sugary croissant style beloved by many locals</p>
-    <h2>O Melhor Croissant da Minha Rua</h2>
-    <p>Creative flavor lineup and expanding presence across Lisbon</p>
+    <h3 class="mb-2 ms-5">🥐 Pastelaria Careca (Restelo)</h2>
+    <p class="mb-4 ms-5">
+      Iconic ultra‑sugary croissant style beloved by many locals
+    </p>
+    <h3 class="mb-2 ms-5">🥐 O Melhor Croissant da Minha Rua</h2>
+    <p class="mb-5 ms-5">
+      Creative flavor lineup and expanding presence across Lisbon
+    </p>
 
-    <p>
-      <a href="/">Back to Homepage</a>
-    </p>
-    <p>
-      <a href="/photo.html">Photo of a croissant</a>
-    </p>
+    <div class="navigation-links">
+      <a href="/" class="primary-link">Back to Homepage</a>
+      <a href="/photo.html" class="secondary-link">Photo of a croissant</a>
+    </div>
   </body>
 </html>
