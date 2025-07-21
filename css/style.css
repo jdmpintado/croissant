@@ -17,6 +17,10 @@ p {
     margin: 30px;
 }
 
+a {
+    color: var(--primary-color);
+}
+
 .navigation-links {
     display: flex;
 }
@@ -47,4 +51,9 @@ p {
     .croissant {
         max-width: 250px;
     }
+}
+
+footer {
+    margin: 30px;
+    color: rgb(0, 0, 0, 0.5);
 }

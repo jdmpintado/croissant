@@ -18,80 +18,97 @@
     <title>Document</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">🥐</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">🥐</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/photo.html"
+                  >How to eat croissant</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html"
+                  >The best croissant in Lisbon</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <h1>How to eat croissant</h1>
+      <div class="container-fluid ms-4 me-4">
+        <div class="row">
+          <div class="col-lg-4 mb-4 p-2">
+            <div class="col-lg-4">
+              <img
+                src="/images/breakfast-croissant.jpg"
+                class="img-fluid croissant"
+              />
+            </div>
+            <div class="col-lg-8">Simple, at breakfast</div>
+          </div>
+
+          <div class="col-lg-4 mb-4 p-2">
+            <div class="col-md-4">
+              <img
+                src="/images/stuffed-croissant.jpg"
+                class="img-fluid croissant"
+              />
+            </div>
+            <div class="col-lg-8">Stuffed, at any time of the day</div>
+          </div>
+
+          <div class="col-lg-4 mb-4 p-2">
+            <div class="col-lg-4">
+              <img
+                src="/images/salty-croissant.jpg"
+                class="img-fluid croissant"
+              />
+            </div>
+            <div class="col-md-8">Salty, at lunch or dinner</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navigation-links">
+        <a href="/" class="primary-link">Back to Homepage</a>
+        <a href="/contact.html" class="secondary-link"
+          >The best croissant in Lisbon</a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/photo.html"
-                >How to eat croissant</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html"
-                >The best croissant in Lisbon</a
-              >
-            </li>
-          </ul>
-        </div>
       </div>
-    </nav>
-
-    <h1>How to eat croissant</h1>
-    <div class="container-fluid ms-4 me-4">
-      <div class="row">
-        <div class="col-lg-4 mb-4 p-2">
-          <div class="col-lg-4">
-            <img
-              src="/images/breakfast-croissant.jpg"
-              class="img-fluid croissant"
-            />
-          </div>
-          <div class="col-lg-8">Simple, at breakfast</div>
-        </div>
-
-        <div class="col-lg-4 mb-4 p-2">
-          <div class="col-md-4">
-            <img
-              src="/images/stuffed-croissant.jpg"
-              class="img-fluid croissant"
-            />
-          </div>
-          <div class="col-lg-8">Stuffed, at any time of the day</div>
-        </div>
-
-        <div class="col-lg-4 mb-4 p-2">
-          <div class="col-lg-4">
-            <img
-              src="/images/salty-croissant.jpg"
-              class="img-fluid croissant"
-            />
-          </div>
-          <div class="col-md-8">Salty, at lunch or dinner</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="navigation-links">
-      <a href="/" class="primary-link">Back to Homepage</a>
-      <a href="/contact.html" class="secondary-link"
-        >The best croissant in Lisbon</a
+    </main>
+    <footer>
+      This page was coded by
+      <a href="https://github.com/jdmpintado">Jéssica Pintado</a>, is
+      <a href="https://github.com/jdmpintado/croissant"
+        >open-sourced on GitHub</a
       >
-    </div>
+      and
+      <a href="https://gleaming-torrone-0d2492.netlify.app/"
+        >hosted on Netlify</a
+      >.
+    </footer>
   </body>
 </html>
