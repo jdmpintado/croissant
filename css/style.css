@@ -13,6 +13,10 @@ h1 {
     color: var(--primary-color);
 }
 
+h2 {
+    font-size: 28px;
+}
+
 p {
     margin: 30px;
 }
